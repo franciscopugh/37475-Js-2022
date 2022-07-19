@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <!--
+        <button id="boton1">Generar evento</button>
+        <input type="color" id="inputColor">
+    
+    <input type="text" id="input1">
+    <button id="botonBusqueda">Buscar</button>-->
+    <div class="container">
+        <form id="idForm">
+            <div class="mb-3">
+                <label for="idUser" class="form-label">User</label>
+                <input type="text" class="form-control" id="idUser">
+              </div>
+            <div class="mb-3">
+              <label for="idEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="idEmail">
+            </div>
+            <div class="mb-3">
+              <label for="idPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="idPassword">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Crear Usuario</button>
+          </form>
+    </div><br><br>
+
+    <div class="container">
+        <button id="botonUsers" class="btn btn-dark">Mostrar Usuarios</button><br><br>
+        <div id="divUsers" class="row"></div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

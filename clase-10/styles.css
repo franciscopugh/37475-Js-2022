@@ -1,0 +1,10 @@
+body {
+    background-color: antiquewhite;
+    color:black;
+    transition: ease 1s;
+}
+
+.darkMode {
+    background-color: black;
+    color:white;
+}
