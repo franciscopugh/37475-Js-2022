@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <form id="formTareas">
+            <div class="mb-3">
+              <label for="nombreTarea" class="form-label">Nombre Tarea</label>
+              <input type="text" class="form-control" id="nombreTarea" name="nombre"> 
+            </div>
+            <div class="mb-3">
+                <label for="descripcionTarea" class="form-label">Descripción Tarea</label>
+                <input type="text" class="form-control" id="descripcionTarea" name="descripcion">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Crear Tarea</button>
+          </form>
+    </div><br><br>
+    <div class="container">
+        <button id="botonTareas" class="btn btn-dark">Mostrar Tareas</button><br><br>
+        <div id= "divTareas" class="row"></div>   
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
