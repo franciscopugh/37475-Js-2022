@@ -1,0 +1,83 @@
+[
+    {
+        "nombre": "Notebook",
+        "marca": "Lenovo",
+        "modelo": "Y510P",
+        "precio": 60000,
+        "stock": 30,
+        "img": "notebook-lenovo.jpg"
+    },
+    {
+        "nombre": "Celular",
+        "marca": "Xiomi",
+        "modelo": "Mi-9",
+        "precio": 35000,
+        "stock": 20,
+        "img": "xiaomi-mi-9.jpg"
+    },
+    {
+        "nombre": "Smart Tv",
+        "marca": "Novatech",
+        "modelo": "50D1U",
+        "precio": 57000,
+        "stock": 15,
+        "img": "smart-tv-novatech.jpg"
+    },
+    {
+        "nombre": "Camara Deportiva",
+        "marca": "iQual",
+        "modelo": "C40",
+        "precio": 8000,
+        "stock": 30,
+        "img": "camara-iqual.jpg"
+    },
+    {
+        "nombre": "Mouse",
+        "marca": "Logitech",
+        "modelo": "G502",
+        "precio": 1400,
+        "stock": 7,
+        "img": "mouse-logitech.jpg"
+    },
+    {
+        "nombre": "Auriculares",
+        "marca": "Motorola",
+        "modelo": "Pulse Escape",
+        "precio": 4000,
+        "stock": 20,
+        "img": "motorola-pulse.jpg"
+    },
+    {
+        "nombre": "iPhone",
+        "marca": "Apple",
+        "modelo": "X Silver",
+        "precio": 250000,
+        "stock": 10,
+        "img": "iphone-x.jpg"
+    },
+    {
+        "nombre": "Apple TV",
+        "marca": "Apple ",
+        "modelo": "32 Gb",
+        "precio": 45000,
+        "stock": 30,
+        "img": "apple-tv.jpg"
+    },
+    {
+        "nombre": "Parlante",
+        "marca": "Kalley",
+        "modelo": "SPK200",
+        "precio": 34000,
+        "stock": 21,
+        "img": "parlante-kalley.png"
+    },
+    {
+        "nombre": "Mac",
+        "marca": "Apple",
+        "modelo": "Air",
+        "precio": 13000,
+        "stock": 25,
+        "img": "mac-air.jpg"
+    }
+    
+]
